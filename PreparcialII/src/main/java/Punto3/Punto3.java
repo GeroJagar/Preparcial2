@@ -36,7 +36,7 @@ public class Punto3 {
                 Persona persona = personas.desencolar();
 
                 if (persona.getSexo().equals("Masculino")) {
-                    if(persona.getEdad() < 30 && persona.getEdad() > 50) {
+                    if(persona.getEdad() < 30 || persona.getEdad() > 50) {
                         cola.encolar(persona);
                     }
                 }else{
