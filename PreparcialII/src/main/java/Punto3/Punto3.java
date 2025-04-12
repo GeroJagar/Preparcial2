@@ -9,11 +9,11 @@ public class Punto3 {
         Cola<Persona> personas = new Cola<>();
 
         // Agregar personas a la cola
-        personas.encolar(new Persona("Juan", "123", 25, "Masculino"));   // fuera (edad < 30)
-        personas.encolar(new Persona("Carlos", "456", 35, "Masculino")); // se queda (30 < edad < 50)
-        personas.encolar(new Persona("Pedro", "789", 55, "Masculino"));  // fuera (edad > 50)
-        personas.encolar(new Persona("Laura", "321", 28, "Femenino"));   // se queda
-        personas.encolar(new Persona("Ana", "654", 40, "Femenino"));     // se queda
+        personas.encolar(new Persona("Juan", "123", 25, "Masculino")); 
+        personas.encolar(new Persona("Carlos", "456", 35, "Masculino")); 
+        personas.encolar(new Persona("Pedro", "789", 55, "Masculino"));  
+        personas.encolar(new Persona("Laura", "321", 28, "Femenino"));   
+        personas.encolar(new Persona("Ana", "654", 40, "Femenino"));     
 
         // Mostrar cola original (opcional)
         System.out.println("Personas antes de filtrar:");
