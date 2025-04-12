@@ -16,7 +16,7 @@ public class Punto2 {
 
         // Mostrar pila original
         System.out.println("Pila original (de arriba hacia abajo):");
-        System.out.println(pila);
+        pila.imprimirPila();
 
         // Obtener solo los primos
         Cola primos = devolverPrimos(pila);
