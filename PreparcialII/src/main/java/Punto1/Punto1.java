@@ -14,13 +14,12 @@ public class Punto1 {
         lista.agregar(4);
 
         System.out.println("Lista original:");
-        System.out.println(lista); // Debería imprimir 1 -> 2 -> 3 -> 4
+        lista.imprimir();
 
         // Invertir la lista
         ListaEnlazadaSimple listaInvertida = invertir(lista);
-
         System.out.println("Lista invertida:");
-        System.out.println(listaInvertida); // Debería imprimir 4 -> 3 -> 2 -> 1
+        listaInvertida.imprimir();
     }
 
     public static ListaEnlazadaSimple invertir(ListaEnlazadaSimple lista) {
